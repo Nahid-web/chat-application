@@ -20,8 +20,6 @@ function errorHandler(err, req, res, next) {
     //json response
     res.json(res.locals.error);
   }
-
-  res.render("error");
 }
 
 module.exports = {

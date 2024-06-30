@@ -1,7 +1,7 @@
 //external imports
 const express = require("express");
 const { getLogin } = require("../controller/loginController");
-const decoratedHtmlResponse = require("../middlewares/decoratedHtmlResponse");
+const decoratedHtmlResponse = require("../middlewares/common/decoratedHtmlResponse");
 
 const router = express.Router();
 
